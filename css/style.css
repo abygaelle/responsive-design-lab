@@ -66,8 +66,20 @@ main{
 }
 
 #contact{
-  display: gird;
+  display: flex;
+  
 }
+
+strong{
+  font-size: 20px;
+}
+
+#offer p:last-child{
+  font-size: 15px;
+  color: rgb(132, 132, 132)
+}
+
+
 
 
 
