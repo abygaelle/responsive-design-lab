@@ -69,7 +69,7 @@ main{
 }
 
 #brand{
-  display: none;
+  visibility: hidden;
 }
 
 #contact{
@@ -129,33 +129,43 @@ strong{
   #name{
     grid-area: name;
     display: flex;
+    margin: 0;
+    padding: 10px;
   } 
 
   img{
     grid-area: img;
-    margin: auto;
     justify-self: center;
   }
 
   #occupation{
     grid-area: occupation;
+    text-align: left;
   }
 
   #brand{
-    grid-area: brand;
-    
-
+  visibility: visible;
+  grid-area: brand;
+  font-size: 15px;
+  color: grey;
+  border-left: green 3px solid;
+  padding-left: 10px;
+  margin: 0;
   }
 
   #contact{
-
+  grid-area: contact;
   }
 
   #offer{
-
+  grid-area: offer;
+  padding-left: 30px;
   }
 
+  #name, #occupation, #brand, #offer{
+    background-color: rgb(234, 233, 228);
 
+  }
 
 
 
