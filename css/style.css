@@ -61,7 +61,13 @@ main{
   text-align: center;
 }
 
+#brand{
+  display: none;
+}
 
+#contact{
+  display: gird;
+}
 
 
 
